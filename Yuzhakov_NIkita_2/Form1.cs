@@ -92,23 +92,13 @@ namespace Yuzhakov_NIkita_2
 
                 if (c > Max_t_h || c < Min_dop_t_h)
                 {
-                    MessageBox.Show("c");
+                    //string porog = Convert.ToString(c);
+                    //MessageBox.Show(porog);
+                    Rasschet.BackColor = Color.Red;
                 }
-                else
-                {
-                    MessageBox.Show("111");
-                }
+                
             }
-
-
-
-            // string[] j = new string[t.Length]; // в массив string 
-            //int i = 0;
-            //foreach (char c in t)
-            //{
-              //  j[i] = c.ToString(); i++;
-            //}
-
+            
 
 
         }
